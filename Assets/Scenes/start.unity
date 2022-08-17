@@ -1620,6 +1620,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   username: 
+  points: 
+  highScore: 0
+  highScoreUser: 
 --- !u!4 &1533481459
 Transform:
   m_ObjectHideFlags: 0
@@ -1753,7 +1756,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usernameInput: {fileID: 1378659748}
-  username: 
+  highScoreText: {fileID: 1668389082}
+  startButton: {fileID: 1936166571}
 --- !u!1 &1668389080
 GameObject:
   m_ObjectHideFlags: 0
@@ -2127,7 +2131,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1936166572}
   m_OnClick:
     m_PersistentCalls:
